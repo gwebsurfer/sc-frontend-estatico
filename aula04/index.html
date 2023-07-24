@@ -1,141 +1,83 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cardápio/Catálogo Digital</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <title>021 Team - Sign up</title>
   </head>
   <body>
-    <header>
-      <div id="heading">
-        <h1 tabindex="0">Cardápio/Catálogo Digital</h1>
-        <span tabindex="0">Confira nossos produtos deliciosos!</span>
-      </div>
-
-      <nav id="navbar">
-        <ul>
-          <li>
-            <a href="#cardapio">Catálogo</a>
-          </li>
-          <li>
-            <a href="#tabela-precos">Tabela de Preços</a>
-          </li>
-          <li>
-            <a href="#form-cadastro">Cadastro</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
     <main>
-      <div class="container">
-        <section id="cardapio">
-          <h2 tabindex="0">Cardápio/Catálogo</h2>
+      <section class="grid-text">
+        <div class="logo-banner">
+          <h1>021 team</h1>
+        </div>
 
-          <div class="produto" tabindex="0">
-            <img src="./img/produto-min.jpg" alt="Foto produto 1" />
-            <div class="texto-produto">
-              <h3>Produto 1</h3>
-              <p>Descrição do Produto 1.</p>
-            </div>
-          </div>
-          <div class="produto" tabindex="0">
-            <img src="./img/produto-min.jpg" alt="Foto produto 2" />
-            <div class="texto-produto">
-              <h3>Produto 2</h3>
-              <p>Descrição do Produto 2.</p>
-            </div>
-          </div>
-          <div class="produto" tabindex="0">
-            <img src="./img/produto-min.jpg" alt="Foto produto 3" />
-            <div class="texto-produto">
-              <h3>Produto 3</h3>
-              <p>Descrição do Produto 3.</p>
-            </div>
-          </div>
-          <div class="produto" tabindex="0">
-            <img src="./img/produto-min.jpg" alt="Foto produto 4" />
-            <div class="texto-produto">
-              <h3>Produto 4</h3>
-              <p>Descrição do Produto 4.</p>
-            </div>
-          </div>
-          <div class="produto" tabindex="0">
-            <img src="./img/produto-min.jpg" alt="Foto produto 5" />
-            <div class="texto-produto">
-              <h3>Produto 5</h3>
-              <p>Descrição do Produto 5.</p>
-            </div>
-          </div>
-          <div class="produto" tabindex="0">
-            <img src="./img/produto-min.jpg" alt="Foto produto 6" />
-            <div class="texto-produto">
-              <h3>Produto 6</h3>
-              <p>Descrição do Produto 6.</p>
-            </div>
-          </div>
-          <div class="produto" tabindex="0">
-            <img src="./img/produto-min.jpg" alt="Foto produto 7" />
-            <div class="texto-produto">
-              <h3>Produto 7</h3>
-              <p>Descrição do Produto 7.</p>
-            </div>
-          </div>
-        </section>
+        <div class="text-banner">
+          <h2
+            >Discover the finest remote gaming testers at 021 Team - where
+            excellence meets passion in the world of game testing.</h2
+          >
+        </div>
 
-        <section id="tabela-precos">
-          <h2 tabindex="0">Tabela de Preços</h2>
+        <div class="footer-banner">
+          <p>Madhushan sasanka</p>
+          <p>Gamer Pro One, 021 Team</p>
+        </div>
+      </section>
 
-          <table>
-            <tr>
-              <th tabindex="0">Produto</th>
-              <th tabindex="0">Preço</th>
-            </tr>
-            <tr>
-              <td tabindex="0">Produto 1</td>
-              <td tabindex="0">R$ 10,00</td>
-            </tr>
-            <tr>
-              <td tabindex="0">Produto 2</td>
-              <td tabindex="0">R$ 15,00</td>
-            </tr>
-          </table>
-        </section>
-
-        <section id="form-cadastro">
-          <h2 tabindex="0">Formulário de Cadastro</h2>
+      <section class="grid-form">
+        <div class="content-form">
+          <h2>Create an account</h2>
+          <p>Let’s get started with your 30 days free trial</p>
 
           <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" aria-label="Digite seu nome" />
+            <div class="input">
+              <label for="nome">Name</label>
+              <input type="text" id="nome" name="nome" required />
+            </div>
 
-            <label for="email">E-mail:</label>
-            <input type="text" id="email" aria-label="Digite seu e-mail" />
+            <div class="input">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
 
-            <label for="telefone">Telefone:</label>
-            <input type="text" id="telefone" aria-label="Digite seu Telefone" />
+            <div class="input">
+              <label for="age">Date of Birth</label>
+              <input type="date" id="age" name="age" required />
+            </div>
 
-            <label for="mensagem">Mensagem:</label>
-            <textarea
-              name="mensagem"
-              id="mensagem"
-              cols="30"
-              rows="4"
-              aria-label="Digite sua mensagem"
-            ></textarea>
+            <div class="input">
+              <label for="ageNumber">Age</label>
+              <input type="number" id="ageNumber" name="ageNumber" required />
+            </div>
 
-            <button type="submit" aria-label="Enviar formulário">Enviar</button>
+            <div class="input">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="input">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" required />
+            </div>
+
+            <div class="checkbox">
+              <input type="checkbox" id="agree" name="agree" required />
+              <label for="agree">I agree to the terms</label>
+            </div>
+
+            <button
+              type="submit"
+              id="btn-submit"
+              aria-label="Button for form submission"
+              >Sign up</button
+            >
           </form>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
-    <footer>
-      <span
-        >&copy; 2023 Cardápio/Catálogo Digital. Todos os direitos
-        reservados.</span
-      >
-    </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
