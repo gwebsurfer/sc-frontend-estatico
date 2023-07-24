@@ -1,0 +1,136 @@
+:root {
+  --primary-color: rgb(126 191 242);
+  --secondary-color: rgb(74 135 236);
+  --tertiary-color: rgb(112 115 236);
+  --light-color: rgb(244 244 248);
+  --light-color-2: rgb(200 200 206);
+  --dark-color: rgb(50 50 55);
+}
+
+body,
+html {
+  color: var(--light-color);
+  font-family: system-ui, 'Segoe UI', sans-serif;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+form button {
+  padding: 0.6rem 1rem;
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.25rem;
+  transition: all ease 0.2s;
+}
+
+form button:hover {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  cursor: pointer;
+}
+
+.grid-text {
+  padding: 2rem 3rem;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 3fr 1fr 1fr;
+  background: url('../img/bg.jpg') no-repeat top center;
+  background-size: cover;
+}
+
+.logo-banner {
+  font-size: 1.2rem;
+  text-transform: lowercase;
+}
+
+.text-banner {
+  max-width: 540px;
+  line-height: 2rem;
+}
+
+.footer-banner {
+  position: absolute;
+  bottom: 2rem;
+}
+
+.footer-banner p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 0.4rem;
+}
+
+.footer-banner p:nth-child(2) {
+  font-size: 0.7rem;
+  font-weight: 200;
+}
+
+.grid-form {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-form {
+  width: 300px;
+  color: var(--dark-color);
+}
+
+.content-form form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.content-form h2 {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.content-form p {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.input {
+  color: var(--dark-color);
+  margin: 0.8rem 0;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px rgb(0, 0, 0) solid;
+}
+
+.input label {
+  font-size: 0.8rem;
+}
+
+.input input {
+  padding: 0.5rem;
+  border: none;
+}
+
+.checkbox {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
