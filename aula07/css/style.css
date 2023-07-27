@@ -1,0 +1,30 @@
+:root {
+  --navbar-bg-color: rgb(52, 58, 64);
+  --jumbotron-bg-color: rgb(233, 236, 239);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 48px;
+}
+
+.bg-dark-2 {
+  background-color: var(--navbar-bg-color);
+}
+
+.jumbotron {
+  margin-bottom: 2rem;
+  padding: 4rem 2rem;
+  background-color: var(--jumbotron-bg-color);
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
